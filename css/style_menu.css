@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cart{
+	display:flex;
+	margin-bottom: 10px;
+	float: right;
+	justify-content:flex-end;
+	width: 100%;
+	
+	
+}
+
+
+.cart_list{
+	display:flex;
+	list-style: none;
+	font-size:40px;
+	width:30px;
+	margin:0px;
+	padding: 0px 80px 0px 0px;
+	
+	
+}
+
+body{
+	padding:0;
+	margin:0;
+	background: url("../images/background_2.jpeg") no-repeat center;
+	background-size: cover;
+}
+
+.navbar_header{
+      display:flex;
+	  justify-content: space-between;
+	  margin-left: 10px;
+	  
+
+}
+
+.logo{
+	 font-size-adjust: auto;
+	 font-size:70px;
+	 margin-right: 10px;
+	 width: max-content;	
+			font-family: Charm, Niconne , "EB Garamond",Arial, serif;
+			font-style: italic;
+			font-weight:normal;
+	}
+
+.nav_bar{
+	 display: flex;
+     align-items: center;
+			font-size:30px;
+			font-family: Charm, Niconne , "EB Garamond",Arial, serif;
+			font-style: normal;
+			font-weight:normal;
+	
+	
+}
+
+	
+	
+.nav_bar ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+.nav_bar ul li{
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+
+nav a {
+	color: black;
+	font-size-adjust: auto;
+	margin:0% 0%;
+    text-decoration: none;
+    padding: 0px 0px;
+	}
+	
+
+
+
+.menu_space{
+	border: 1px solid;
+	border-color:black;
+	display:flex;
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	background-color:#edbb99;
+    padding: 5px;
+	margin:10px;
+	
+	
+}	
+
+	
+.plus_minus_input {
+  align-items: center;
+  display:flex;
+}
+
+.button_hollow_circle{
+	border-radius:50%;
+	cursor:pointer;
+	display: flex;
+	border:solid;
+}
+
+.plus_minus_input .input_group_field {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+	display:flex;
+}
+
+.input_group_field{
+	border:solid;
+	border-color:black;
+	padding:0px;
+	max-width: 20px;
+	display:flex;
+}
+
+.plus_minus_input .input_group_field::-webkit-inner-spin-button,
+.plus_minus_input .input_group_field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*.plus_minus_input .input_group_button .circle{
+  border-radius: 50%;
+  padding: 1px 1px;
+}
+*/
+
+
+
+.master_button{
+	display:flex;
+	justify-content: center;
+	
+}
+.buttons{
+	display:flex;
+	justify-content: space-around;
+	width:600px;
+}
+
+.button_1 {
+	background-color: #470000;
+    border: none;
+	font-size:20px;
+    color: white;
+	display:flex;
+	border-radius: 30px;
+	width:150px;
+	text-align: center;
+	padding: 3px 4px 3px 4px;
+	margin : 5px 0px 20px 0px;
+	cursor: pointer;
+				font-family: Charm, Niconne , "EB Garamond",Arial, serif;
+			font-style: italic;
+			font-weight:normal;
+}
+
+
+/* TABS CSS*/
+
+.container{
+			width: auto;
+			margin: auto;
+			padding: 0px;
+		}
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		ul.tabs li{
+			background: none;
+			display: inline-block;
+			padding: 10px 10px;
+			cursor: pointer;
+			font-size:30px;
+			font-family: Charm, Niconne , "EB Garamond",Arial, serif;
+			font-style: italic;
+			font-weight:normal;
+				
+			
+		}
+
+		ul.tabs li.current{
+			border-bottom: 3px solid #000000;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 10px;
+			
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+	.tabs_main {
+
+	/*background-image:url("../images/background.jpeg");*/
+	display:flex;
+	margin:10px;
+		
+}
+	
+/*Items Css*/
+
+.item_image{
+	display:flex;
+	max-height: 20vh;
+	margin:1px 1px 1px 1px;
+	max-width: 20vw;
+	margin: 25px;
+}
+
+.item_description{
+	justify-content: baseline;
+}
+
+.item_price{
+		font-family:  "EB Garamond",Charm, Niconne,Arial, serif;
+	font-style:normal;
+	font-weight:bold;
+	
+	
+}
+
+p{
+	font-family:  "EB Garamond",Charm, Niconne,Arial, serif;
+	font-style:normal;
+	font-weight:bold;
+	font-size:20px;
+	line-height: 5px;
+	
+}
+
+.active{
+		border-bottom: 3px solid #000000;
+		color: #222;
+	    margin:1px;
+}
+
+h3{
+	border-bottom: 2px solid #000000;
+	padding: 0px;
+	font-family: Charm, Niconne , "EB Garamond",Arial, serif;
+	font-style:normal;
+	font-weight:bold;
+	
+}

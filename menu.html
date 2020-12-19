@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" name = "viewpoint" content="width=device-width,initial-scale=1">
+		<title>Di_Marios_Menu</title>
+		<link rel="stylesheet" type = "text/css" href="css\style_menu.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/menu_js.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond|Niconne|Charm">
+		
+		
+
+
+</head>
+
+<body>
+	<header class = "navbar_header">
+		<nav class = "nav_bar">
+			<ul>
+			<!-- καθε σελιδα θα εχει την class active ξεχωριστα-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html"  class = "active">Menu</a></li>
+				<li><a href="about.html" >About</a></li>
+			</ul>
+		</nav>
+		
+		<div class = "logo">Di'Marios Pizza</div>
+	</header>
+	
+	<div class = "cart">
+		<nav>
+		<ul class = "cart_list">
+		<li><a href="payment.html" class="fa fa-cart-arrow-down"></a></li>
+		</ul>
+		</nav>
+	</div>
+	
+	<div class = "tabs_main"> <!-- tabs line-->
+
+	<div class="container">
+
+	<ul class="tabs">
+		<li class="tab-link current" data-tab="tab-1">Pizza</li>
+		<li class="tab-link" data-tab="tab-2">Sides</li>
+		<li class="tab-link" data-tab="tab-3">Drinks</li>
+	</ul>
+
+	<div id="tab-1" class="tab-content current">
+<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/pizza_3.jpeg" alt="pizza with cheese spinach and ham on a plate">
+	</div>
+	<div class = "item_description">
+		<h3>Di Marios Pizza</h3>
+		<p>Mozzarella</p>
+		<p>Prosciutto</p>
+		<p>Spinach</p>
+			<p class = "item_price">Price : 14.99 € </p>
+	</div>
+	
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_1">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_1" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_1">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+ <section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/pepperoni.jpeg" alt="piza_pepperoni">
+	</div>
+		<div class = "item_description">
+		<h3>Pepperoni</h3>
+		<p>Pepperoni</p>
+			<p>Mozzrella</p>
+			<p class ="item_price">Price : 14.99 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_2">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_2" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_2">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/hawaiian_2.jpeg" alt="hawaiian pizza">
+	</div>
+		<div class = "item_description">
+		<h3>Hawaiian</h3>
+		<p>Mozzarella</p>
+			<p>Pineapple</p>
+			<p>Ham</p>
+		<p class = "item_price">Price : 14.99 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_3">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_3" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_3">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/pizza_1.jpeg" alt="vegetarian pizza">
+	</div>
+	<div class = "item_description">
+		<h3>Vegetarian</h3>
+		<p>Mozzaralla</p>
+		<p>Olives</p>
+		<p>Peppers</p>
+		<p>Price : 14.99 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_4">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_4" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_4">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+	</div>
+	<div id="tab-2" class="tab-content">
+<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/fries.jpeg" alt="potato fires">
+	</div>
+	<div class = "item_description">
+		<h3>Fries</h3>
+		<p>Seasoned Fried</p>
+		<p>Potatoes</p>
+		<p>Price : 5.00 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_5">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_5" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_5">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+ <section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/onion rings_2.jpg" alt="onion rings">
+	</div>
+	<div class = "item_description">
+		<h3>Onion Rings</h3>
+		<p>Freshly cut</p>
+		<p>Fried Onion Rings</p>
+		<p>Price : 8.00 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_6">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_6" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_6">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/bread.jpeg" alt="garlic bread">
+	</div>
+	<div class = "item_description">
+		<h3>Garlic Bread</h3>
+		<p>Bread Slices,</p>
+		<p>Garlic Spread,</p>
+		<p>Herbs</p>
+		<p>Price : 3.00 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_7">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_7" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_7">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/dips.jpeg" alt="sauce dips">
+	</div>
+	<div class = "item_description">
+		<h3>Selection Of Dips</h3>
+		<p>Mayonnaise</p>
+		<p>Ketchap</p>
+		<p>Mustard</p>
+		<p>Price : 5.00 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_8">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_8" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_8">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+	</div>
+	<div id="tab-3" class="tab-content">
+<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/coca.jpeg" alt="coca cola can">
+	</div>
+	<div class = "item_description">
+		<h3>Coca Cola</h3>
+		<p>Coca Cola</p>
+		<p>(355 ml)</p>
+		<p>Price : 14.50 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_9">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_9" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_9">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+ <section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/ber.jpg" alt="beer in glass">
+	</div>
+	<div class = "item_description">
+		<h3>Beer</h3>
+		<p>Selection:</p>
+		<p>Amstel</p>
+		<p>Heineken</p>
+		<p>Guinness</p>
+		<p>Price : 4.99 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_10">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_10" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_10">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/juice.jpg" alt="orange juice in glass">
+	</div>
+	<div class = "item_description">
+		<h3>Orange Juice</h3>
+		<p>Freshly made</p>
+		<p>orange juice</p>
+		<p>(0.5 lt)</p>
+		<p>Price : 3.50 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_11">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_11" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_11">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+		<section class = "menu_space">
+
+	<div> 
+	<img class = "item_image" src="images/milkshake_2.jpeg" alt="milkshake">
+	</div>
+	<div class = "item_description">
+		<h3>Milkshake</h3>
+		<p>Flavors</p>
+		<p>Chocolate</p>
+		<p>Strawberry</p>
+		<p>Vanilla</p>
+		<p>Price : 14.99 € </p>
+	</div>
+	
+	<!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+<div class="input_group plus_minus_input">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="minus" data-field="quantity_12">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+  </div>
+  <input class="input_group_field" type="number" name="quantity_12" value="0">
+  <div class="input_group_button">
+    <button type="button" class="button_hollow_circle" data-quantity="plus" data-field="quantity_12">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+</section>
+	</div>
+		
+		
+    </div> <!--end of container--> 
+	</div>	<!-- END OF TABS MAIN-->
+<br>
+<br>
+   <section class= "master_button">
+	<div class = "buttons">
+	   
+		<!-- ΕΔΩ Ο ΚΩΔΙΚΟς ΓΙΑ ΤΑ ΚΟΥΜΠΙΑ-->
+		 <a href="payment.html"><button class = "button_1" type="button">Proceed to checkout</button> </a>
+		</a>
+	
+	</div>
+	</section>
+	</body>
+	
+
+	</html>
